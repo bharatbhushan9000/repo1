@@ -20,10 +20,10 @@ public class HelloWorld {
 	}
 	public static int addNumbers (int value1,int value2)
 	{
-		value1=value1+10;
+		value1=value1;
 		value2=value2+10;
 		
-		return value1+value2;
+		return value1+value2-10;
 	}
 
 }
